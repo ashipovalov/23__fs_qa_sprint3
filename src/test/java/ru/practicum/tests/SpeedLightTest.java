@@ -19,7 +19,7 @@ public class SpeedLightTest {
     private final String expectedLight;
     private final int speed;
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "expected Light = {0}, speed = {1} ")
     public static Object[] data(){
         return new Object[][]{
                 {"green", 50},
