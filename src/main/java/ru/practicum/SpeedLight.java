@@ -6,6 +6,7 @@ public class SpeedLight {
         System.out.println("Эта строка для демонстрации");
         System.out.println("Это наше самое настоящее изменение");
         System.out.println("А теперь посмотрим ребейз");
+        System.out.printf("Давай посмотрим на твой ребейз");
         if (currentSpeed < 60) {
             return "green";
         } else if (currentSpeed < 80) {
