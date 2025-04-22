@@ -1,7 +1,7 @@
 package ru.practicum;
 
 
-public class Main {
+public class SpeedLight {
     public String showLight(int currentSpeed) {
         if (currentSpeed < 60) {
             return "green";
